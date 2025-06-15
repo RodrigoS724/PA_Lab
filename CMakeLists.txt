@@ -24,8 +24,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Others/Notifications/notifications.h
         Model/Others/EnumBooking/enumBooking.cpp
         Model/Others/EnumBooking/enumBooking.h
-        Model/Others/DtDate/dtDate.cpp
-        Model/Others/DtDate/dtDate.h
+        Model/Others/DtDate/DtDate.cpp
+        Model/Others/DtDate/DtDate.h
         Model/Organization/organization.cpp
         Model/Organization/organization.h
         Model/Employee/employee.cpp
@@ -38,4 +38,12 @@ add_executable(reserva_de_turnos main.cpp
         Model/Booking/booking.h
         Factory/factory.cpp
         Factory/factory.h
+        Model/Horario/Horario.cpp
+        Model/Horario/Horario.h
+        Model/Sucursal/Sucursal.cpp
+        Model/Sucursal/Sucursal.h
+        Model/Servicio/Servicio.cpp
+        Model/Servicio/Servicio.h
+        Model/Categoria/Categoria.cpp
+        Model/Categoria/Categoria.h
 )
