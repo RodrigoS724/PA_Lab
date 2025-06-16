@@ -4,5 +4,18 @@
 
 #ifndef ADMIN_H
 #define ADMIN_H
+#include "../user.h"
+
+class Admin final : public User {
+private:
+    bool isAdmin;
+    string name;
+public:
+    Admin(int id, string email, string password, string name);
+
+    bool getIsAdmin() const;
+
+    static void setIsAdmin(bool);
+};
 
 #endif //ADMIN_H
