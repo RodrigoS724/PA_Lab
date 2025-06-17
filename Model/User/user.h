@@ -10,6 +10,7 @@ protected:
     int id;
     string email;
     string password;
+    string name;
 
 public:
     User(int id, const string& email, const string& password);

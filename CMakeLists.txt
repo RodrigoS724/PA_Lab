@@ -28,8 +28,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Others/DtDate/dtDate.h
         Model/Organization/organization.cpp
         Model/Organization/organization.h
-        Model/Employee/employee.cpp
-        Model/Employee/employee.h
+        Model/User/Employee/employee.cpp
+        Model/User/Employee/employee.h
         Model/Category/category.cpp
         Model/Category/category.h
         Model/Branch/branch.cpp

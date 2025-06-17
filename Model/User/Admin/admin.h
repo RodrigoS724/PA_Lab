@@ -9,7 +9,6 @@
 class Admin final : public User {
 private:
     bool isAdmin;
-    string name;
 public:
     Admin(int id, string email, string password, string name);
 

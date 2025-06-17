@@ -8,7 +8,6 @@
 
 class Client final : public User {
 private:
-    string name;
     string phone;
 
 public:
