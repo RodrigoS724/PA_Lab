@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 26)
 add_executable(reserva_de_turnos main.cpp
         Model/Config/config.cpp
         Model/Config/configController.h
-        Model/User/Client/clientController.cpp
-        Model/User/Client/clientController.h
+        Model/User/Client/client.cpp
+        Model/User/Client/client.h
         Model/User/Admin/admin.cpp
         Model/User/Admin/admin.h
         Model/User/user.cpp
@@ -28,8 +28,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Others/DtDate/DtDate.h
         Model/Organization/organization.cpp
         Model/Organization/organization.h
-        Model/Employee/employee.cpp
-        Model/Employee/employee.h
+        Model/User/Employee/employee.cpp
+        Model/User/Employee/employee.h
         Model/Category/category.cpp
         Model/Category/category.h
         Model/Branch/branch.cpp
