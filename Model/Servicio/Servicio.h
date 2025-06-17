@@ -7,7 +7,8 @@
 
 #include <string>
 
-class servicio {
+class servicio
+{
 private:
     int id;
     string nombre;
@@ -19,14 +20,14 @@ public:
     servicio();
     servicio(int id, string nombre, string descripcion, int duracion, float precio);
 
-    //getters
+    // getters
     int getId() const;
     string getNombre() const;
     string getDescripcion() const;
     int getDuracion() const;
     float getPrecio() const;
 
-    //Setters
+    // Setters
     void setId(int id);
     void setNombre(string nombre);
     void setDescripcion(string descripcion);
@@ -36,4 +37,4 @@ public:
     std::string toString() const;
 };
 
-#endif //SERVICIO_H
+#endif // SERVICIO_H

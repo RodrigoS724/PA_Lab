@@ -5,11 +5,12 @@
 #ifndef ESTADORESERVA_H
 #define ESTADORESERVA_H
 
-enum class EstadoReserva {
-Activa,
-Cancelada,
-Finalizada,
-NoAsistio
+enum class EstadoReserva
+{
+    Activa,
+    Cancelada,
+    Finalizada,
+    NoAsistio
 };
 
-#endif //ESTADORESERVA_H
+#endif // ESTADORESERVA_H

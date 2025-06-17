@@ -24,8 +24,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Others/Notifications/notifications.h
         Model/Others/EnumBooking/enumBooking.cpp
         Model/Others/EnumBooking/enumBooking.h
-        Model/Others/DtDate/DtDate.cpp
-        Model/Others/DtDate/DtDate.h
+        Model/Others/DtDate/dtDate.cpp
+        Model/Others/DtDate/dtDate.h
         Model/Organization/organization.cpp
         Model/Organization/organization.h
         Model/User/Employee/employee.cpp

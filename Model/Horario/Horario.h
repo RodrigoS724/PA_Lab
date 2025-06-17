@@ -7,7 +7,8 @@
 
 #include <string>
 
-class Horario {
+class Horario
+{
 private:
     int id;
     int dia;
@@ -16,15 +17,15 @@ private:
 
 public:
     Horario();
-    Horario(int id, int dia,string horarioIni,string horarioFin);
+    Horario(int id, int dia, string horarioIni, string horarioFin);
 
-    //Getters
+    // Getters
     int getId() const;
     int getDia() const;
     string getHorarioIni() const;
     string getHorarioFin() const;
 
-    //Setters
+    // Setters
     void setId(int id);
     void setDia(int dia);
     void setHorarioIni(string horarioIni);
@@ -33,4 +34,4 @@ public:
     std::string toString() const;
 };
 
-#endif //HORARIO_H
+#endif // HORARIO_H

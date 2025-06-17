@@ -7,7 +7,8 @@
 
 #include <string>
 
-class sucural {
+class sucural
+{
 private:
     int id;
     string direccion;
@@ -17,15 +18,15 @@ public:
     sucural();
     sucural(int id, string direccion, string telefono);
 
-    void addServicio(Servicio* s);
-    const vector<Servicio*> getServicios();
+    void addServicio(Servicio *s);
+    const vector<Servicio *> getServicios();
 
-//Getters
+    // Getters
     int getId() const;
     string getDireccion() const;
     string getTelefono() const;
 
-//Setters
+    // Setters
     void setId(int id);
     void setDireccion(string direccion);
     void setTelefono(string telefono);
@@ -33,4 +34,4 @@ public:
     std::string toString() const;
 };
 
-#endif //SUCURSAL_H
+#endif // SUCURSAL_H
