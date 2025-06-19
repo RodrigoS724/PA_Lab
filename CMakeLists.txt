@@ -20,8 +20,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Qualification/qualification.h
         Model/Others/Stats/stats.cpp
         Model/Others/Stats/stats.h
-        Model/Others/Notifications/notifications.cpp
-        Model/Others/Notifications/notifications.h
+        Model/Others/Notification/notification.cpp
+        Model/Others/Notification/notification.h
         Model/Others/EnumBooking/enumBooking.cpp
         Model/Others/EnumBooking/enumBooking.h
         Model/Others/DtDate/dtDate.cpp

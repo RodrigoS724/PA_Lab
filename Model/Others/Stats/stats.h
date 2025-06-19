@@ -6,11 +6,14 @@
 #define STATS_H
 
 
-
 class Stats {
-
+    void serviciosMasSolicitados();
+    void empleadosMasReservados();
+    void serviciosMasReservados();
+    void tasaDeCancelacion();
+    void calificacionPromedioServicio();
+    void calificacionPromedioEmpleado();
 };
-
 
 
 #endif //STATS_H

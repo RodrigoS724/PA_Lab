@@ -4,11 +4,18 @@
 
 #ifndef NOTIFICATIONS_H
 #define NOTIFICATIONS_H
+#include <string>
 
-
+using namespace std;
 
 class Notifications {
+protected:
+    string message;
 
+public:
+    Notifications(string message);
+
+    void showMessage();
 };
 
 
