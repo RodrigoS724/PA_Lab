@@ -2,22 +2,22 @@
 // Created by rodrigo724 on 14/06/25.
 //
 
-#ifndef NOTIFICATIONS_H
-#define NOTIFICATIONS_H
+#ifndef Notification_H
+#define Notification_H
 #include <string>
 
 using namespace std;
 
-class Notifications {
+class Notification {
 protected:
     string message;
 
 public:
-    Notifications(string message);
+    Notification(string message);
 
     void showMessage();
 };
 
 
 
-#endif //NOTIFICATIONS_H
+#endif //Notification_H

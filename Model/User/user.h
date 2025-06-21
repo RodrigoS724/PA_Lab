@@ -19,9 +19,12 @@ public:
     int getId() const;
     string getEmail() const;
     string getPassword() const;
+    string getName() const;
 
     void setEmail(const string& email);
     void setPassword(const string& password);
+    void setName(const string& name);
+
 };
 
 #endif // USER_H

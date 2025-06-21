@@ -12,23 +12,23 @@ class Horario
 private:
     int id;
     int dia;
-    string horario_inicio;
-    string horario_fin;
+    string horarioInicio;
+    string horarioFin;
 
 public:
     Horario();
-    Horario(int id, int dia, string horarioIni, string horarioFin);
+    Horario(int id, int dia, string horarioInicio, string horarioFin);
 
     // Getters
     int getId() const;
     int getDia() const;
-    string getHorarioIni() const;
+    string getHorarioInicio() const;
     string getHorarioFin() const;
 
     // Setters
     void setId(int id);
     void setDia(int dia);
-    void setHorarioIni(string horarioIni);
+    void setHorarioInicio(string horarioInicio);
     void setHorarioFin(string horarioFin);
 
     std::string toString() const;

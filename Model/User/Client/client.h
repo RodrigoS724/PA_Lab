@@ -14,10 +14,10 @@ public:
 
     Client(int, string, string, string, string);
 
-    string getName() const;
     string getPhone() const;
-    static void setName(const string &name);
+
     static void setPhone(const string &phone);
+
     void getInfo() const;
 };
 
