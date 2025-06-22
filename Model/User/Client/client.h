@@ -12,11 +12,11 @@ private:
 
 public:
 
-    Client(int, string, string, string, string);
+    Client(const int, const string, const string, const string, const string) ;
 
     string getPhone() const;
 
-    static void setPhone(const string &phone);
+    void setPhone(const string);
 
     void getInfo() const;
 };

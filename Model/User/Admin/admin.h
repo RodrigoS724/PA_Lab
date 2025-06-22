@@ -14,7 +14,7 @@ public:
 
     bool getIsAdmin() const;
 
-    static void setIsAdmin(bool);
+    void setIsAdmin(bool);
 };
 
 #endif //ADMIN_H
