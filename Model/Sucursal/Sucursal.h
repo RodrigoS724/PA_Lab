@@ -6,6 +6,9 @@
 #define SUCURSAL_H
 
 #include <string>
+#include <vector>
+class Organizacion;
+class Empleado;
 
 class Sucural
 {
@@ -13,11 +16,23 @@ private:
     int id;
     string direccion;
     string telefono;
+    Organizacion* organizacion;
+    vector<Empleado*> empleados;
+    vector<Reserva*> reservas;
 
 public:
     Sucural();
     Sucural(int id, string direccion, string telefono);
     ~Sucural();
+
+    Organizacion* getOrganizacion() const;
+    const vector<Empleado*>& getEmpleados() const;
+    const std::vector<Reserva*>& getReservas() const;
+
+    void agregarReserva(Reserva* reserva);
+    void setOrganizacion(Organizacion* organizacion);
+    void agregarEmpleado(Empleado* empleado);
+
 
     void addServicio(Servicio *s);
     const vector<Servicio *> getServicios();

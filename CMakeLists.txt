@@ -18,24 +18,24 @@ add_executable(reserva_de_turnos main.cpp
         Model/Service/service.h
         Model/Qualification/qualification.cpp
         Model/Qualification/qualification.h
-        Model/Others/Stats/stats.cpp
-        Model/Others/Stats/stats.h
+        Model/Others/Estadisticas/Estadisticas.cpp
+        Model/Others/Estadisticas/Estadisticas.h
         Model/Others/Notification/notification.cpp
         Model/Others/Notification/notification.h
         Model/Others/EnumBooking/enumBooking.cpp
         Model/Others/EnumBooking/enumBooking.h
         Model/Others/DtDate/dtDate.cpp
         Model/Others/DtDate/dtDate.h
-        Model/Organization/organization.cpp
-        Model/Organization/organization.h
+        Model/Organizacion/Organizacion.cpp
+        Model/Organizacion/Organizacion.h
         Model/User/Empleado/Empleado.cpp
         Model/User/Empleado/Empleado.h
         Model/Category/category.cpp
         Model/Category/category.h
         Model/Branch/branch.cpp
         Model/Branch/branch.h
-        Model/Booking/booking.cpp
-        Model/Booking/booking.h
+        Model/Reserva/Reserva.cpp
+        Model/Reserva/Reserva.h
         Factory/factory.cpp
         Factory/factory.h
         Model/Horario/Horario.cpp

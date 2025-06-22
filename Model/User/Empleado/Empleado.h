@@ -6,11 +6,14 @@
 #define EMPLEADO_H
 
 #include "../user.h"
+#include <string>
 class Horario;
+class Sucursal;
 
 class Empleado final : public User {
 private:
     Horario* horario; //relacion con horario 1 a 1
+    Sucursal* sucursal;
 
 public:
     // Constructor
@@ -22,7 +25,10 @@ public:
 
     // Métodos específicos get y set
     void setHorario(Horario* horario);
+    void setSucursal(Sucursal* sucursal);
+
     Horario* getHorario() const;
+    Sucursal* getSucursal() const;
 
 
     void displayInfo() const;
