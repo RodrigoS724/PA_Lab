@@ -46,8 +46,12 @@ add_executable(reserva_de_turnos main.cpp
         Model/Servicio/Servicio.h
         Model/Categoria/Categoria.cpp
         Model/Categoria/Categoria.h
-        Relation/Empleado_Servicio/employeeService.cpp
-        Relation/Empleado_Servicio/employeeService.h
-        Relation/Empleado_Reserva/empleadoReserva.cpp
-        Relation/Empleado_Reserva/EmpleadoReserva.h
+        Relation/Empleado_Servicio/EmpleadoServicio.cpp
+        Relation/Empleado_Servicio/EmpleadoServicio.h
+        Relation/EmpleadoReserva/empleadoReserva.cpp
+        Relation/EmpleadoReserva/EmpleadoReserva.h
+        "Relation/Servicio_Organizacion /servicioOrganizacion.cpp"
+        "Relation/Servicio_Organizacion /servicioOrganizacion.h"
+        Relation/Categoria_Servicio/categoriaServicio.cpp
+        Relation/Categoria_Servicio/categoriaServicio.h
 )
