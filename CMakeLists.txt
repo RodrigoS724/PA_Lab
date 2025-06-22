@@ -28,8 +28,8 @@ add_executable(reserva_de_turnos main.cpp
         Model/Others/DtDate/dtDate.h
         Model/Organization/organization.cpp
         Model/Organization/organization.h
-        Model/User/Employee/employee.cpp
-        Model/User/Employee/employee.h
+        Model/User/Empleado/Empleado.cpp
+        Model/User/Empleado/Empleado.h
         Model/Category/category.cpp
         Model/Category/category.h
         Model/Branch/branch.cpp
@@ -48,4 +48,6 @@ add_executable(reserva_de_turnos main.cpp
         Model/Categoria/Categoria.h
         Relation/Empleado_Servicio/employeeService.cpp
         Relation/Empleado_Servicio/employeeService.h
+        Relation/Empleado_Reserva/empleadoReserva.cpp
+        Relation/Empleado_Reserva/EmpleadoReserva.h
 )

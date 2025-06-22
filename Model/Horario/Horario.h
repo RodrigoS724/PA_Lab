@@ -6,6 +6,7 @@
 #define HORARIO_H
 
 #include <string>
+class Empleado;
 
 class Horario
 {
@@ -15,9 +16,12 @@ private:
     string horarioInicio;
     string horarioFin;
 
+    //Relacion 1 a 1
+    Empleado* empleado;
+
 public:
     Horario();
-    Horario(int id, int dia, string horarioInicio, string horarioFin);
+    Horario(int id, int dia, string horarioInicio, string horarioFin, Empleado* empleado);
     ~Horario();
 
     // Getters
@@ -25,12 +29,14 @@ public:
     int getDia() const;
     string getHorarioInicio() const;
     string getHorarioFin() const;
+    Empleado* getEmpleado() const;
 
     // Setters
     void setId(int id);
     void setDia(int dia);
     void setHorarioInicio(string horarioInicio);
     void setHorarioFin(string horarioFin);
+    void setEmpleado(Empleado* empleado);
 
     std::string toString() const;
 };
