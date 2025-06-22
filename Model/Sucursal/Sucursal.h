@@ -7,7 +7,7 @@
 
 #include <string>
 
-class sucural
+class Sucural
 {
 private:
     int id;
@@ -15,8 +15,9 @@ private:
     string telefono;
 
 public:
-    sucural();
-    sucural(int id, string direccion, string telefono);
+    Sucural();
+    Sucural(int id, string direccion, string telefono);
+    ~Sucural();
 
     void addServicio(Servicio *s);
     const vector<Servicio *> getServicios();

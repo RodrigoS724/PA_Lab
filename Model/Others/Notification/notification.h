@@ -14,6 +14,7 @@ protected:
 
 public:
     Notification(string message);
+    ~Notification();
 
     void showMessage();
 };

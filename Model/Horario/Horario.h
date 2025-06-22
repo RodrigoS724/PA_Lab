@@ -18,6 +18,7 @@ private:
 public:
     Horario();
     Horario(int id, int dia, string horarioInicio, string horarioFin);
+    ~Horario();
 
     // Getters
     int getId() const;

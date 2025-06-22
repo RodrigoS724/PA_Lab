@@ -7,7 +7,7 @@
 
 #include <string>
 
-class servicio
+class Servicio
 {
 private:
     int id;
@@ -17,8 +17,9 @@ private:
     float precio;
 
 public:
-    servicio();
-    servicio(int id, string nombre, string descripcion, int duracion, float precio);
+    Servicio();
+    Servicio(int id, string nombre, string descripcion, int duracion, float precio);
+    ~Servicio();
 
     // getters
     int getId() const;

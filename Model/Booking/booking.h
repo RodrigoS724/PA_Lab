@@ -14,7 +14,9 @@ private:
     EstadoReserva estado;
 
 public:
+    Booking();
     Booking(DtDate date, int id, EstadoReserva estado);
+    ~Booking();
 
     DtDate getDate() const;
     int getId() const;

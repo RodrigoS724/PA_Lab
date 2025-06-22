@@ -16,6 +16,7 @@ private:
 public:
     Organization();
     Organization(int id, string name, string email);
+    ~Organization();
 
     int getId() const;
     string getName() const;

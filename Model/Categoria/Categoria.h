@@ -13,8 +13,9 @@ private:
     string titulo;
 
 public:
-    categoria();
-    categoria(int id, string titulo);
+    Categoria();
+    Categoria(int id, string titulo);
+    ~Categoria();
 
     //getters
     int getId() const;

@@ -13,6 +13,7 @@ private:
 
     public:
     Qualification(int star, int id);
+    ~Qualification();
 
     void toString() const;
 };
